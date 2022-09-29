@@ -36,7 +36,7 @@ const Activity = ({singleProduct}) => {
 
                 <div className="take-time">
                     <ul>
-                        <button onClick={TimeSet} > 10s</button>
+                        <button onClick={TimeSet} >10s</button>
                         <button onClick={TimeSet} >25s</button>
                         <button onClick={TimeSet} >30s</button> 
                         <button onClick={TimeSet} >45s</button>

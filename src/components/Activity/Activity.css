@@ -16,7 +16,7 @@
     text-align: center;
     
 }
-.my-info h1{
+.info h1{
     margin-right: 30px;
     font-size: 20px;
 }
@@ -35,15 +35,16 @@
     margin-left: -40px;
     
 }
-.take-time ul li{
+.take-time ul button{
     background-color: rgb(235, 233, 231);
     padding: 10px;
-    border-radius: 50%;
+    border: none;
+    border-radius: 10px;
     list-style: none;
     margin-right: 5px;
 }
-.take-time ul li:hover{
-    background-color: rgb(203, 252, 236);
+.take-time ul button:hover{
+    background-color: rgb(104, 235, 191);
 }
 .exercise-time{
     height: 80px;
