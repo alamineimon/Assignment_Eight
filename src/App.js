@@ -1,10 +1,12 @@
 import './App.css';
-import Body from './Components/BodyContainer/Body';
+import Shop from './components/Shop/Shop';
+
+// import Records from './records.json'
 
 function App() {
   return (
-    <div className="App">
-      <Body></Body>      
+    <div className='App'>
+      <Shop></Shop>
     </div>
   );
 }

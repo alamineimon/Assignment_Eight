@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Power Rack",
+        "des": "Power rack, also known as full rack is a massive square-like piece of equipment.",
+        "age": "24",
+        "time": "20",
+        "img": "img/cable-crossover.jpg"
+    }, 
+    {
+        "name": "Squat Rack ",
+        "des": "Half rack is basically one half of a power rack. It does not take a lot of space.",
+        "age": "24",
+        "img": "img/squat-rack.jpg",
+        "time": "20"
+    }, 
+    {
+        "name": "Cable Crossover Machine",
+        "des": "You can usually find a good cable cross-over machine in your local gym. ",
+        "age": "24",
+        "time": "20",
+        "img": "img/pull-rak.jpg"
+    },
+    {
+        "name": "Power Tower",
+        "des": "Power towers are quite accessible these days, from various manufacturers .",
+        "age": "24",
+        "time": "20",
+        "img": "img/hammer.jpg"
+    }, 
+    {
+        "name": "Hammer Strength Machine",
+        "des": "In most well-equipment public gyms, you can come across a hammer strength machine.",
+        "img": "img/pull-rak.jpg",
+        "age": "24",
+        "time": "20"
+    }, 
+    {
+        "name": "Chest Press Machine",
+        "des": "The machine works the same pectoral muscles as a bench press, although the design.",
+        "age": "24",
+        "img": "img/chest-press.jpg",
+        "time": "20"
+    }
+]
