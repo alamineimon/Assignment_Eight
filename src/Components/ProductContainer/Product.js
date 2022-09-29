@@ -4,7 +4,12 @@ import "./Product.css"
 const ProductContainer = () => {
     return (
         <div className='product-container'>
-            <h1>Product</h1>
+            <div className="header">
+            <h1>Build Your Own Health</h1>
+            </div>
+            <div className="cart-item">
+                <h2>Select Your Execise:</h2>
+            </div>
         </div>
     );
 };
