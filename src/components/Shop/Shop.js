@@ -3,7 +3,6 @@ import './Shop.css';
 import React,{ useEffect, useState } from 'react';
 import Activity from '../Activity/Activity'
 import SingleCard from '../SingleCard/SingleCard';
-// import { addToDb, getStoredCart } from '../../fakeInfo.json';
 
 
 const Shop = () => {
@@ -15,14 +14,6 @@ const Shop = () => {
         .then(res=> res.json())
         .then(data => setProducts(data))
     },[])
-    //     // for localStorage 
-    // useEffect(()=>{
-    //     const storedCart = getStoredCart()
-    //     // console.log(storedCart);
-    //     for(const _id in storedCart){
-    //         console.log(_id);
-    //     }
-    // },[])
 
     const handleAddToCart=(product) =>{
         // console.log(product);

@@ -1,9 +1,12 @@
 // import React from 'react';
 import './Activity.css';
 import React, { useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+
 
 
 const Activity = ({singleProduct}) => {
+    const notify = () => toast("You Have Done.");
     let totalTime = 0 ;
     for(const product of singleProduct){
         totalTime =totalTime +  parseInt(product.time) ;
@@ -50,9 +53,10 @@ const Activity = ({singleProduct}) => {
                 <div className='break-time'>
                     <h4>Break Time:  {getTime}</h4>
                 </div>
-                <button  className='activity-btnn'>
+                <button onClick={notify}  className='activity-btnn'>
                     Completed Activity 
                 </button>
+                <ToastContainer></ToastContainer>
         </div>
     );
 };
