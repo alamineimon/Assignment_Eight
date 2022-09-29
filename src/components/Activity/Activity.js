@@ -6,10 +6,9 @@ import './Activity.css';
 // import '../Activity/Activity.css';
 
 const Activity = ({singleProduct}) => {
-    console.log(singleProduct);
     let totalTime = 0 ;
     for(const product of singleProduct){
-        totalTime = totalTime + product.time ;
+        totalTime = parseInt(totalTime + product.time) ;
     }
 
     // for toast part 
@@ -23,10 +22,7 @@ const Activity = ({singleProduct}) => {
     return (
         <div className='activity-container'>
             <div className=''>
-                <h1>Delower Hossain </h1>
-                <p>Email: hdelower68@gmial.com</p>
-
-                <p><small>Jhenaidha, Dhaka, Bangladesh</small></p>
+                <h1>Al Amin Eimon </h1>
             </div>
                 <div className="my-info">
                     <div>
@@ -54,14 +50,14 @@ const Activity = ({singleProduct}) => {
                     </ul>
                 </div>
                 <h2>Exercise Details</h2>
-                <div className='exercise-time'>
+                <div className='exercise-times'>
                     <h4>Exercise time: {totalTime}s</h4>
                 </div>
                 <div className='break-time'>
                     <h4>Break time: </h4>
                 </div>
                 <button  className='activity-btn'>
-                    <h4  >Activity Completed</h4>
+                    Completed Activity 
                 </button>
         </div>
     );

@@ -1,6 +1,6 @@
 import React from 'react';
-import './Card.css'
-const Card = (props) => {
+import './SingleCard.css'
+const SingleCard = (props) => {
     // console.log(props);
     const {handleAddToCart} = props
     const {image,details,name,age, time} = props.product
@@ -20,4 +20,4 @@ const Card = (props) => {
     );
 };
 
-export default Card;
+export default SingleCard;

@@ -2,7 +2,7 @@
 import './Shop.css';
 import React,{ useEffect, useState } from 'react';
 import Activity from '../Activity/Activity'
-import Card from '../All-Cards/Card/Card';
+import SingleCard from '../All-Cards/SingleCard/SingleCard';
 // import { addToDb, getStoredCart } from '../../fakeInfo.json';
 
 
@@ -34,19 +34,19 @@ const Shop = () => {
 
     return (
         <div className='shop-cont'>
-            <div >
-            <h1>Build Your Body: {products.length}</h1>
+            <div className=''>
+                <h1>Build Your Body: {products.length}</h1>
                <h2>Select today’s exercise</h2>
                <button className='interView-qs'>Question And Answer</button>
-              <div className="product-container">
+                <div className="product-container">
                 {
-                    products.map(product => <Card key={product._id}
+                    products.map(product => <SingleCard key={product._id}
                         product = {product}
                         handleAddToCart={handleAddToCart}
-                        ></Card>)
+                        ></SingleCard>)
                 }
-              </div>
 
+                </div>
             </div>
             <div className="activity-container">
                <Activity singleProduct={singleProduct}></Activity>

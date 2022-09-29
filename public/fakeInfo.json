@@ -9,7 +9,7 @@
     },
     {
         "id": "2",
-        "time": "15",
+        "time": "35",
         "age": "20",
         "name": "Back squat",
         "details": "Just like the deadlift, the barbell back squat hits just about every major muscle group there is in the body and is the king of leg-developing movements",
@@ -18,7 +18,7 @@
     {
         "id": "3",
         "age": "32",
-        "time": "15",
+        "time": "44",
         "name": "Bench Press",
         "details": "Every gym-goer in the world has been asked “Whaddya bench?” at least once.",
         "image": "img/BenchPress.webp"
@@ -26,7 +26,7 @@
     {
         "id": "4",
         "age": "23",
-        "time": "15",
+        "time": "56",
         "name": " Dumbbell romanian deadlift",
         "details": "This could be the most important exercise there is for lower-back health and developing an impressive set of glutes.",
         "image": "img/Dumbbellromaniandeadlift.webp"
@@ -34,7 +34,7 @@
     {
         "id": "5",
         "age": "25",
-        "time": "15",
+        "time": "28",
         "name": "Pullup",
         "details": "Nothing quite says “I’m big” like a wide set of shoulders; a wide back doesn’t hurt either",
         "image": "img/Pullup.webp"
@@ -42,7 +42,7 @@
     {
         "id": "6",
         "age": "30",
-        "time": "15",
+        "time": "18",
         "name": "Banded Good Morning",
         "details": "Although this move looks like it would hurt your lower back, it in fact has the opposite effect",
         "image": "img/Banded oodMorning.webp"
