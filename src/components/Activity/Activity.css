@@ -1,15 +1,15 @@
 .activity-container{
     text-align: start;
     padding:0px 30px;
-    height: 100%;
     background-color: rgb(214, 214, 213);
     position: sticky;
 }
-.my-info{
+.info{
     height: 100px;
-    width: 280px;
+    width: 100%;
     border-radius: 10px;
-    background-color: rgb(198, 193, 193);
+    background-color: rgb(128, 199, 199);
+    padding: 0 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,9 +22,10 @@
 }
 .take-time{
     height: 100px;
-    width: 280px;
+    width: 100%;
     border-radius: 10px;
-    background-color: rgb(143, 142, 142);
+    background-color: rgb(128, 199, 199);
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,31 +46,37 @@
     background-color: rgb(203, 252, 236);
 }
 .exercise-time{
-    height: 100px;
-    width: 280px;
-    background-color: rgb(177, 165, 165);
-    border-radius: 10px;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(128, 199, 199);
+    border-radius: 5px;
     margin-bottom: 10px;
-    padding: 10px ;
 
 }
 .break-time{
-    height: 100px;
-    width: 90%;
-    background-color: rgb(216, 216, 216);
-    border-radius: 10px;
-    padding: 10px ;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(128, 199, 199);
+    border-radius: 5px;
+    /* padding: 10px ; */
 
 }
-.activity-btn{
+.activity-btnn{
     padding: 15px 30px;
+    width: 100%;
     background-color: rgb(6, 187, 187);
     text-align: center;
-    border-radius: 15px;
+    border-radius: 5px;
     margin-top: 20px;
     font-size: 16px;
     border: none;
     color: white;
+}
+.activity-btn:hover{
+    background-color: rgb(128, 199, 199);
+
 }
 
 
