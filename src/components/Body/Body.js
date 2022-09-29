@@ -1,11 +1,10 @@
-// import React from 'react';
-import './Shop.css';
+import './Body.css';
 import React,{ useEffect, useState } from 'react';
-import Activity from '../Activity/Activity'
-import SingleCard from '../SingleCard/SingleCard';
+import Slider from '../Slider/Slider'
+import Card from '../Card/Card';
 
 
-const Shop = () => {
+const Body = () => {
     const [products , setProducts] = useState([]);
     const [singleProduct, setSingleProduct] = useState([])
 
@@ -20,7 +19,6 @@ const Shop = () => {
         const newSingleProduct = [...singleProduct , product];
         setSingleProduct(newSingleProduct)
 
-        // addToDb(product._id);
     }
 
     return (
@@ -29,23 +27,22 @@ const Shop = () => {
                 <div className='shop-txt'>
                     <h2>Select today’s exercise</h2>
                     <h1>Build Your Body: {products.length}</h1>
-                    <button className='interView-qs'>Question And Answer</button>
                 </div>
                 <div className="product-container">
                 {
-                    products.map(product => <SingleCard key={product._id}
+                    products.map(product => <Card key={product._id}
                         product = {product}
                         handleAddToCart={handleAddToCart}
-                        ></SingleCard>)
+                        ></Card>)
                 }
 
                 </div>
             </div>
             <div className="activity-container">
-               <Activity singleProduct={singleProduct}></Activity>
+               <Slider singleProduct={singleProduct}></Slider>
             </div>        
         </div>
     );
 };
 
-export default Shop;
+export default Body;

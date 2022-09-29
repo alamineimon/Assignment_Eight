@@ -20,7 +20,7 @@
     margin-right: 30px;
     font-size: 20px;
 }
-.take-time{
+.take-tottal-time{
     height: 100px;
     width: 100%;
     border-radius: 10px;
@@ -30,12 +30,12 @@
     justify-content: center;
     align-items: center;
 }
-.take-time ul{
+.take-tottal-time ul{
     display: flex;
     margin-left: -40px;
     
 }
-.take-time ul button{
+.take-tottal-time ul button{
     background-color: rgb(235, 233, 231);
     padding: 10px;
     border: none;
@@ -43,7 +43,7 @@
     list-style: none;
     margin-right: 5px;
 }
-.take-time ul button:hover{
+.take-tottal-time ul button:hover{
     background-color: rgb(104, 235, 191);
 }
 .exercise-time{

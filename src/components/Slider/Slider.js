@@ -1,12 +1,11 @@
-// import React from 'react';
-import './Activity.css';
+import './Slider.css';
 import React, { useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 
 
 
-const Activity = ({singleProduct}) => {
-    const notify = () => toast("You Have Done.");
+const Slider = ({singleProduct}) => {
+    const notify = () => toast("You Have Complete Your Daily Tasks.");
     let totalTime = 0 ;
     for(const product of singleProduct){
         totalTime =totalTime +  parseInt(product.time) ;
@@ -23,21 +22,21 @@ const Activity = ({singleProduct}) => {
             </div>
                 <div className="info">
                     <div>
-                        <h1>65(kg)</h1>
+                        <h1>62 (kg)</h1>
                         <p>Weight</p>
                     </div>
                     <div>
-                        <h1>6.5</h1>
+                        <h1>6.6</h1>
                         <p>Height</p>
                     </div>
                     <div>
-                        <h1>22(yrs)</h1>
+                        <h1>23 (yrs)</h1>
                         <p>Age</p>
                     </div>
                 </div>
                 <h4>Add a Break</h4>
 
-                <div className="take-time">
+                <div className="take-tottal-time">
                     <ul>
                         <button onClick={TimeSet} >10s</button>
                         <button onClick={TimeSet} >25s</button>
@@ -61,4 +60,4 @@ const Activity = ({singleProduct}) => {
     );
 };
 
-export default Activity;
+export default Slider;
