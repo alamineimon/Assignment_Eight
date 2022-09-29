@@ -9,7 +9,7 @@ const Slider = () => {
                 <ul>
                     <li><strong>75</strong> <small>kg</small> <br /> Weight</li>
                     <li><strong>6.5</strong> <br />Height</li>
-                    <li><strong>20</strong> <small>yrs</small> <br /> Age</li>
+                    <li><strong>25</strong> <small>yrs</small> <br /> Age</li>
                 </ul>
             </div>
             <h4>Add A Break</h4>
